@@ -1,0 +1,92 @@
+.profile-pic {
+    height: 280px;
+}
+.green-font-color {
+    color: #84ab3f;
+}
+.sarelas-bio {
+    font-size: 1.1rem;
+    line-height:1.6rem;
+}
+.grey-font-color {
+    /*color: #1d2129;*/
+    color: #2F373F;
+}
+.about-pic {
+    text-align: center;
+    max-width: 80%;
+}
+.about-us {
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size:1.2rem;
+}
+.crate {
+    height: 174px;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.jll {
+    padding-right: 20px;
+    height: 100px;
+    padding-left: 20px;
+}
+.walmart {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.spencer {
+    height: 56px;
+    padding-top: 26px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.background-highlight {
+    /*background-color: rgba(51,51,51,0.18);*/
+    background-color: rgba(1,86,160,0.12);
+    /*background-color: #333;*/
+    border-bottom: 4px solid #e9ebee;
+    border-top: 1px solid #e9ebee;
+}
+@media (max-width: 991px) {
+    .tag-line{
+        padding-top:40px;
+    }
+    .about-pic {
+        min-width: 88%;
+    }
+    .about-us {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-pic {
+        height: 220px;
+    }
+    .about-pic {
+        min-width: 98%;
+    }
+    .about-us {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 560px) {
+    .about-us {
+        font-size: 1.1rem;
+    }
+    .sarelas-bio {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .client-logo{
+        display:block;
+        margin: 0 auto;
+    }
+}
+
+   

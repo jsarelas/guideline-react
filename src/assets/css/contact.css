@@ -1,0 +1,22 @@
+.contact-form {
+    background-color: rgba(51,51,51,0.18);
+}
+.contact-head {
+    font-size:1.4rem;
+}
+.contact-subhead {
+    font-size: 1rem;
+}
+    
+    .input-box input[type=search],
+    .input-box input[type=file],
+    .input-box input[type=text],
+    .input-box input[type=email],
+    .input-box input[type=tel] textarea,
+    .input-box select {
+        padding: 15px 20px 11px 30px;
+        background-color: transparent;
+        border: #aaa 1px solid;
+        width: 100%;
+        letter-spacing: .07em;
+    }

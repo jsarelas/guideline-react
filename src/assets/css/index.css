@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: .2rem .4rem;
+}
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #2F373F;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    border-color: #84ab3f;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+    .bd-navbar .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        color: #cbbde2;
+    }
+
+        .bd-navbar .navbar-nav .nav-link:hover {
+            color: #fff;
+            background-color: transparent;
+        }
+
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+
+i.nav-icon {
+   margin-right:8px;
+   font-size:20px;
+}
+
+.txt-align-center {
+    text-align: center;
+}
+.l-pad-10 {
+    padding-left: 10px;
+}
+
+.l-mar-10 {
+    margin-left: 10px;
+}
+.l-mar-20 {
+    margin-left: 20px;
+}
+.r-pad-10 {
+    padding-right: 10px;
+}
+.r-mar-10 {
+    margin-right: 10px;
+}
+.r-mar-20 {
+    margin-right: 20px;
+}
+.b-pad-10 {
+    padding-bottom: 10px;
+}
+.b-pad-20 {
+    padding-bottom: 20px;
+}
+.b-pad-30 {
+    padding-bottom: 30px;
+}
+.b-pad-40 {
+    padding-bottom: 40px;
+}
+.b-pad-50 {
+    padding-bottom: 50px;
+}
+.b-pad-60 {
+    padding-bottom: 60px;
+}
+.b-pad-70 {
+    padding-bottom: 70px;
+}
+.b-pad-80 {
+    padding-bottom: 80px;
+}
+.b-pad-90 {
+    padding-bottom: 90px;
+}
+.b-pad-100 {
+    padding-bottom: 100px;
+}
+.b-pad-200 {
+    padding-bottom: 200px;
+}
+.t-pad-10 {
+    padding-top: 10px;
+}
+.t-pad-20 {
+    padding-top: 20px;
+}
+.t-pad-30 {
+    padding-top: 30px;
+}
+.t-pad-40 {
+    padding-top: 40px;
+}
+.t-pad-50 {
+    padding-top: 50px;
+}
+.t-pad-60 {
+    padding-top: 60px;
+}
+.t-pad-70 {
+    padding-top: 70px;
+}
+.t-pad-80 {
+    padding-top: 80px;
+}
+.t-pad-90 {
+    padding-top: 90px;
+}
+.t-pad-100 {
+    padding-top: 100px;
+}
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+{
+  "name": "guideline-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.12.9",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-burger-menu": "^2.2.3",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.0",
+    "react-sidebar": "^2.3.2",
+    "redux": "^3.7.2",
+    "redux-burger-menu": "^0.2.4",
+    "redux-form": "^7.2.3",
+    "redux-promise": "^0.5.3",
+    "semantic-ui-icon": "^2.2.14",
+    "youtube-api-search": "^0.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

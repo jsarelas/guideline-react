@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { createPost } from '../../actions/Blog/action'
+import { createPost } from './actions'
 import BlogHeader from './blog_header';
 
 class AddPost extends Component {
@@ -14,7 +14,7 @@ class AddPost extends Component {
             <div className={className}>
                 <label>{field.label}</label>
                 <input
-                    className="form-control"
+                    className="form-control blog-form-control"
                     type="text"
                     {...field.input}
                 />

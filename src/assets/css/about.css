@@ -19,7 +19,8 @@
 .about-us {
     padding-left: 180px;
     padding-right: 180px;
-    font-size:1.2rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 .crate {
     height: 174px;
@@ -88,5 +89,12 @@
         margin: 0 auto;
     }
 }
+@media (max-width:320px){
+    .about-us {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
 
    

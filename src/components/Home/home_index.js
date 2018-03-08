@@ -17,22 +17,22 @@ class HomePage extends Component {
         return (
             <div>
                 <Helmet defaultTitle="Home &#183; Guideline Solutions" />
-                <section className="home-page-banner" style={backgroundStyle}>
-                    <div className="banner-text">
-                        <div className="v-align-div">
-                            <div className="text-center"><img src={logo} alt="logo" className="gl-logo-home" /></div>
 
-                            <div className="page-divider t-pad-20"><div></div></div>
-                            <div className="text-center t-pad-20"><h4 className="home-tag-line">Building applications that make businesses successful.</h4></div>
+                    <section className="home-page-banner" style={backgroundStyle}>
+                        <div className="banner-text">
+                            <div className="v-align-div">
+                                <div className="text-center"><img src={logo} alt="logo" className="gl-logo-home" /></div>
+
+                                <div className="page-divider t-pad-30"><div></div></div>
+                                <div className="text-center t-pad-20"><h4 className="home-tag-line">Building applications that make businesses successful.</h4></div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-
+                    </section>
                 <div className="container t-pad-50 b-pad-40">
                     <div className="jumbotron jumbotron-fluid">
                         <div className="container">
                             <h1 className="display-4">Mission Statement</h1>
-                            <p className="lead">To provide business efficient minded customers with high quality and cost effective custom software solutions which are consistently perceived as reliable, cost saving, and profit maximization. We help our customers lower their operations cost, increase business efficiency, and accelerate their growth by streamlining the business process and simplifying data management with our software solutions.</p>
+                            <p className="lead">To provide business efficient minded customers with high quality and cost effective custom software solutions which are consistently perceived as reliable, cost saving, and profit maximization.  We help our customers lower their operations cost, increase business efficiency, and accelerate their growth by streamlining the business process and simplifying data management with our software solutions.</p>
                         </div>
                     </div>
                     <div className="flex-box-3-col">
@@ -48,7 +48,7 @@ class HomePage extends Component {
                         </div>
                         <div className="flex-item">
                             <div><i className="unhide icon"></i></div>
-                            <div className="flex-title">UI/UI DESIGN PROCESS</div>
+                            <div className="flex-title">UI/UX DESIGN PROCESS</div>
                             <div className="flex-desc r-mar-10 l-mar-10">We care about understanding you and your customers, in service of creating experiences that deliver.</div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ class HomePage extends Component {
                 <section className="home-page-banner" style={footerStyle}>
                     <div className="banner-text">
                         <div className="v-align-div-bottom">
-                            <div className="text-center t-pad-20 r-pad-10 l-pad-10"><h4>Design led, End-to-End Services.</h4></div>
+                            <div className="text-center t-pad-20 r-pad-10 l-pad-10"><h4>DESIGN LED, END-TO-END SERVICES</h4></div>
                             <div className="page-divider t-pad-30"><div></div></div>
                             <div className="text-center t-pad-20 footer-banner-text"><h5>From strategy to execution, our winning combination of innovative thinking, scientific design, sophisticated development, and advanced engineering ensure we're delivering fresh value to help you grow.</h5></div>
                         </div>

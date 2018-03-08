@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../../actions/Blog/action';
+import { fetchPosts } from './actions';
 import { Link } from 'react-router-dom';
 import BlogHeader from './blog_header';
 

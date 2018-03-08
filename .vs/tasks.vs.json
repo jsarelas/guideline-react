@@ -10,6 +10,11 @@
       "taskName": "task-guideline-react",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskName": "task-guideline-react",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

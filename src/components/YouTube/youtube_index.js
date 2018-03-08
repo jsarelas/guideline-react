@@ -8,7 +8,7 @@ import VideoDetail from './video_detail';
 
 import '../../assets/css/youtube.css';
 
-const API_KEY = 'AIzaSyBbAm6epwQHrICNaOdH5FXxTRgoqWm4n4M';
+const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 class YouTube extends Component {
     constructor(props) {

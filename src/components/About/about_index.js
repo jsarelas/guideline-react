@@ -42,7 +42,7 @@ class AboutPage extends Component {
                     <div className="t-pad-40">
                         <div className="text-center">
                             <h2>Jason Sarelas</h2>
-                            <div className="page-divider t-pad-10"><div></div></div>
+                            <div className="page-divider t-pad-20"><div></div></div>
                             <h5 className="t-pad-10"><i>President & CEO</i></h5>
                         </div>
                     </div>

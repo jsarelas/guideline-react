@@ -1,0 +1,61 @@
+.media-nasa {
+    width: 90%;
+    margin-right:5%;
+    margin-left:5%;
+    text-align: center;
+    max-width:1024px;
+}
+
+.media-nasa-div {
+    text-align: center;
+}
+
+.apod-title {
+   text-align: center;
+   font-weight:bold;
+   padding-top:2px;
+   padding-bottom:20px;
+   font-size:1.2rem;
+}
+
+.apod-date {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#nasa-video {
+    min-height:580px;
+}
+
+@media (max-width: 1024px) {
+    .media-nasa {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    #nasa-video {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-nasa {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    #nasa-video {
+        min-height: 440px;
+    }
+}
+
+@media (max-width: 560px) {
+    .media-nasa {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    #nasa-video {
+        min-height: 400px;
+    }
+}

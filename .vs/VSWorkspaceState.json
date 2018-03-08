@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\public",
-    "\\src\\actions",
-    "\\src\\assets\\images",
-    "\\src\\components",
-    "\\src\\reducers\\Blog",
-    "\\src\\reducers\\Contact"
+    ""
   ],
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

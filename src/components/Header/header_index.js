@@ -14,18 +14,18 @@ class Header extends Component {
     render() {
         return (
             <header className="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-                <Link to="/"><img src={logo} alt="logo" className="gl-logo" /></Link>
+                <Link alt="Home" to="/"><img src={logo} alt="logo" className="gl-logo" /></Link>
 
                 <ul className="navbar-nav flex-row ml-md-auto d-md-flex">
                     <li className="nav-item">
-                        <Link to="/" onClick={this.itemSelected}><i className="home icon nav-icon" alt="Home"></i><span className="nav-text">
+                        <Link alt="Home" to="/" onClick={this.itemSelected}><i className="home icon nav-icon" alt="Home"></i><span className="nav-text">
                            Home</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/about" onClick={this.itemSelected}><i className="info icon nav-icon"></i><span className="nav-text">About</span></Link>
+                        <Link alt="About" to="/about" onClick={this.itemSelected}><i className="info icon nav-icon"></i><span className="nav-text">About</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contact" onClick={this.itemSelected}><i className="user icon nav-icon"></i><span className="nav-text">Contact</span></Link>
+                        <Link alt="Contact" to="/contact" onClick={this.itemSelected}><i className="user icon nav-icon"></i><span className="nav-text">Contact</span></Link>
                     </li>
                     <li onClick={this.props.onSelectMenu} className="nav-item hamburger"><i className="sidebar icon nav-icon"></i></li>
                 </ul>

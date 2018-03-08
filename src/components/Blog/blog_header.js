@@ -7,7 +7,6 @@ class BlogHeader extends Component {
                 <h4>Blog using Redux and ReduxForm</h4>
                 <h5>TheRealJasonSarelas</h5>
                 <div>@RealJasonSarelas</div>
-
             </div>
         );
     }

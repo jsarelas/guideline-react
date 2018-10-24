@@ -12,6 +12,9 @@ const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
+// import Purgecss webpack plugin and glob-all
+const PurgecssPlugin = require('purgecss-webpack-plugin')
+const glob = require('glob-all')
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -263,6 +266,28 @@ module.exports = {
     // Otherwise React will be compiled in the very slow development mode.
     new webpack.DefinePlugin(env.stringified),
     // Minify the code.
+  //    new webpack.optimize.UglifyJsPlugin({
+  //        mangle: true,
+  //        unused: true,
+  //        dead_code: true, // big one--strip code that will never execute
+  //        warnings: false, // good for prod apps so users can't peek behind curtain
+  //        drop_debugger: true,
+  //        conditionals: true,
+  //        evaluate: true,
+  //        drop_console: true, // strips console statements
+  //        sequences: true,
+  //        booleans: true,
+  //        compress: {
+  //            warnings: false, // Suppress uglification warnings
+  //            pure_getters: true,
+  //            unsafe: true,
+  //            unsafe_comps: true,
+  //            screw_ie8: true
+  //        },
+  //        output: {
+  //            comments: false,
+  //        },
+  //    }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false,
@@ -286,6 +311,12 @@ module.exports = {
     // Note: this won't work without ExtractTextPlugin.extract(..) in `loaders`.
     new ExtractTextPlugin({
       filename: cssFilename,
+    }),
+    // Remove unused css with Purgecss. See https://github.com/FullHuman/purgecss
+    // for more information about purgecss.
+    // Specify the path of the html files and source files
+    new PurgecssPlugin({
+      paths: [paths.appHtml, ...glob.sync(`${paths.appSrc}/**/*.{js,jsx,mjs}`)]
     }),
     // Generate a manifest file which contains a mapping of all asset filenames
     // to their corresponding output file so that tools can pick it up without

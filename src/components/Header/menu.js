@@ -38,30 +38,6 @@ class Menu extends Component {
         window.scrollTo(0, 0);
     }
 
-    //<li><span>JobTracker (coming soon)</span></li>
-      //<li className="sidenav-divider"></li>
-
-    //<li><div>Off-canvas nav test 1</div></li>
-    //<li><div>Off-canvas nav test 2</div></li>
-    //<li><div>Off-canvas nav test 3</div></li>
-    //<li><div>Off-canvas nav test 4</div></li>
-    //<li><div>Off-canvas nav test 5</div></li>
-    //<li><div>Off-canvas nav test 6</div></li>
-    //<li><div>Off-canvas nav test 7</div></li>
-    //<li><div>Off-canvas nav test 8</div></li>
-    //<li><div>Off-canvas nav test 9</div></li>
-    //<li><div>Off-canvas nav test 10</div></li>
-    //<li><div>Off-canvas nav test 11</div></li>
-    //<li><div>Off-canvas nav test 12</div></li>
-    //<li><div>Off-canvas nav test 13</div></li>
-    //<li><div>Off-canvas nav test 14</div></li>
-    //<li><div>Off-canvas nav test 15</div></li>
-    //<li><div>Off-canvas nav test 16</div></li>
-    //<li><div>Off-canvas nav test 17</div></li>
-    //<li><div>Off-canvas nav test 18</div></li>
-    //<li><div>Off-canvas nav test 19</div></li>
-    //<li><div>Off-canvas nav test 20</div></li>
-
     render() {
         return (
                 <div id="sidenav" className={(this.state.sideNav)}>

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config",
+    "\\scripts",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\ToDo"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\components\\ToDo\\todo.js",
   "PreviewInSolutionExplorer": false
 }

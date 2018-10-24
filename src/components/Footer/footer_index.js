@@ -41,7 +41,7 @@ class Footer extends Component {
                             <li><a alt="LinkedIn" href="https://www.linkedin.com/in/jason-sarelas-9aa0b317/" rel="noopener noreferrer" target="_blank"><i className="linkedin icon"></i></a></li>
                             <li><a alt="GitHub" href="https://github.com/jsarelas" rel="noopener noreferrer" target="_blank"><i className="github icon"></i></a></li>
                             <li><a alt="Twitter" href="https://twitter.com/JasonSarelas" rel="noopener noreferrer" target="_blank"><i className="twitter icon"></i></a></li>
-                            <li><a alt="Facebook" href="https://www.facebook.com/guidelinesolutionsinc/" rel="noopener noreferrer" target="_blank"><i className="facebook f icon"></i></a></li>
+                            <li><a alt="Facebook" href="https://www.facebook.com/guidelinesolutionsinc/" rel="noopener noreferrer" target="_blank"><i className="facebook icon"></i></a></li>
                         </ul>
                     </div>
                     <div className="copyright-content">

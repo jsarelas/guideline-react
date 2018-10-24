@@ -20,7 +20,7 @@ git commit -m "publish"
 echo "...git push to build branch..."
 
 #git checkout -b "build"
-git push origin "build" --force
+git push -u orgin "build" --force
 
 echo "...build branch has been updated..."
 echo "...script end..."

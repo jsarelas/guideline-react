@@ -14,13 +14,14 @@ cd build
 
 echo "...git commit deploy..."
 git init
+git remote add origin "https://github.com/jsarelas/guideline-react/"
 git add -A
-git commit -m "publish"
+git commit -m "publish files"
 
 echo "...git push to build branch..."
 
-#git checkout -b "build"
-git push -u orgin "build" --force
+git checkout -b publish
+git push -u origin publish --force
 
 echo "...build branch has been updated..."
 echo "...script end..."

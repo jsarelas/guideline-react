@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
-    "\\scripts",
+    "\\node_modules",
+    "\\node_modules\\semantic-ui-icon",
+    "\\node_modules\\semantic-ui-icon\\assets",
     "\\src",
+    "\\src\\assets\\css",
     "\\src\\components",
-    "\\src\\components\\ToDo"
+    "\\src\\components\\Footer",
+    "\\src\\components\\Header",
+    "\\src\\components\\Home"
   ],
-  "SelectedNode": "\\src\\components\\ToDo\\todo.js",
+  "SelectedNode": "\\src\\components\\Footer\\footer_index.js",
   "PreviewInSolutionExplorer": false
 }

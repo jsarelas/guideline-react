@@ -48,7 +48,7 @@ class AboutPage extends Component {
                     </div>
                     <div className="t-pad-40 sarelas-bio">
                         <p>Jason founded Guideline Solutions in 2006 working as an independent contractor in the greater Chicagoland area.</p>
-                        <p>Jason is a skilled senior consultant with 21 years of full stack development experience; with a wide range of technical expertise including mobile, web, client server, UX/UI design, database architecture, cloud solutions, leadership and management.</p>
+                        <p>Jason is a skilled senior consultant with 22 years of full stack development experience; with a wide range of technical expertise including mobile, web, client server, UX/UI design, database architecture, cloud solutions, leadership and management.</p>
                         <p>
                             Major strength is in enterprise architecture with extensive knowledge in security, identity, and authentication. </p>
                         <p>
@@ -56,7 +56,7 @@ class AboutPage extends Component {
                         <p>
                             Highly self-motivated, detail-oriented, and flexible individual with strong interpersonal skills.</p>
                         <p>
-                            Comprehensive knowledge of the following technologies: Azure, OKTA, SSO, Windows Identity Foundation, Siteminder, OAuth, .NET (C#), ASP.NET MVC, SQL Server, Entity Framework, LINQ, WCF, ASP.NET Web API, SOAP Web services, JavaScript, jQuery, Typescript, Angular, React, React Native, Vue, Node, JSON, XML, XSLT, HTML5, CSS and Sass.
+                            Comprehensive knowledge of the following technologies: Azure, Google Cloud Platform, OKTA, SSO, OAuth, Active Directory, .NET (C#), .NET Core, MVC, SQL Server, MongoDB, MariaDB, Entity Framework, LINQ, WCF, Rest Web API, GraphQL, JavaScript, Typescript, Node.js, React, Redux, Redux-Saga, Angular, Vue, Vuex, PWA, Webpack, Grunt, jQuery, JSON, XML, XSLT, HTML5, CSS and Sass.
                         </p>
                     </div>
                     <div className="text-center t-pad-40"><h5>Had the privilege of working with these previous clients.</h5></div>

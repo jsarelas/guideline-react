@@ -56,7 +56,7 @@ class AboutPage extends Component {
                         <p>
                             Highly self-motivated, detail-oriented, and flexible individual with strong interpersonal skills.</p>
                         <p>
-                            Comprehensive knowledge of the following technologies: Azure, Google Cloud Platform, OKTA, SSO, OAuth, Active Directory, .NET (C#), .NET Core, MVC, SQL Server, MongoDB, MariaDB, Entity Framework, LINQ, WCF, Rest Web API, GraphQL, JavaScript, Typescript, Node.js, React, Redux, Redux-Saga, Angular, Vue, Vuex, PWA, Webpack, Grunt, jQuery, JSON, XML, XSLT, HTML5, CSS and Sass.
+                            Comprehensive knowledge of the following technologies: Azure, AWS, Google Cloud Platform, OKTA, SSO, OAuth, Active Directory, .NET (C#), .NET Core, MVC, SQL Server, MongoDB, MariaDB, Entity Framework, LINQ, WCF, Rest Web API, GraphQL, JavaScript, ES6/ES2016+, Typescript, Node.js, React, Redux, Redux-Saga, AngularJS, Angular, Vue, Vuex, PWA, Webpack, Grunt, jQuery, JSON, XML, XSLT, HTML5, CSS and Sass.
                         </p>
                     </div>
                     <div className="text-center t-pad-40"><h5>Had the privilege of working with these previous clients.</h5></div>

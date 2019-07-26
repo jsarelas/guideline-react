@@ -56,9 +56,9 @@ class Menu extends Component {
                             </ul>
                         </li>
                         <li className="sidenav-divider"></li>
-                        <li><div>Vue Samples</div><div>(coming soon)</div></li>
-                        <li className="sidenav-divider"></li>
-                        <li><div>Angular Samples</div><div>(coming soon)</div></li>
+                        <li></li>
+{/*                         <li className="sidenav-divider"></li>
+                        <li><div>Angular Samples</div><div>(coming soon)</div></li> */}
                     </ul>
                 </div>   
         );

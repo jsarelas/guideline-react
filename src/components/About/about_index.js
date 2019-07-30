@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import about from '../../assets/images/aboutusbanner.jpg';
 //import AboutUs from '../../assets/images/about-us.jpg';
-import Profile from '../../assets/images/smallprofile.jpg';
+import Profile from '../../assets/images/smallprofile-glasses.jpg';
 
 //client logos
 import Crate from '../../assets/images/clients/crate.png';

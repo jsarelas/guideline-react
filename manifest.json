@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Guideline",
+  "short_name": "Guideline",
+  "version": "1.01",
+  "start_url": "/",
+  "background": {
+    "persistent": false
+  },
+  "offline_enabled": true,
+  "default_locale": "en",
+  "description": "Guideline Solutions.  Building applications that make businesses successful.  Jason Sarelas.  Austin, TX.  UI/UX design.  Web.  Mobile.  Architecture.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#2f373f",
+  "background_color": "#2f373f"
+}
+
+

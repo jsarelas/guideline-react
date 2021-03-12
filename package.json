@@ -42,7 +42,7 @@
     "raf": "3.4.0",
     "react": "^16.8.6",
     "react-async-script": "^0.9.1",
-    "react-dev-utils": "^5.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-google-recaptcha": "^0.9.9",
     "react-helmet": "^5.2.1",
